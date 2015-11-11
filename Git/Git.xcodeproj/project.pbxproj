@@ -15,6 +15,7 @@
 		BCB226471BF320C200D86963 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB226451BF320C200D86963 /* LaunchScreen.xib */; };
 		BCB226531BF320C200D86963 /* GitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB226521BF320C200D86963 /* GitTests.m */; };
 		BCB2265F1BF328C300D86963 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2265E1BF328C300D86963 /* AViewController.m */; };
+		BCB226631BF32A5600D86963 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB226621BF32A5600D86963 /* BViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		BCB226521BF320C200D86963 /* GitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTests.m; sourceTree = "<group>"; };
 		BCB2265D1BF328C300D86963 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
 		BCB2265E1BF328C300D86963 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		BCB226611BF32A5600D86963 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		BCB226621BF32A5600D86963 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		BCB226351BF320C000D86963 /* Git */ = {
 			isa = PBXGroup;
 			children = (
+				BCB226601BF32A4600D86963 /* B */,
 				BCB2265C1BF3288400D86963 /* A */,
 				BCB2263A1BF320C000D86963 /* AppDelegate.h */,
 				BCB2263B1BF320C000D86963 /* AppDelegate.m */,
@@ -130,6 +134,15 @@
 				BCB2265E1BF328C300D86963 /* AViewController.m */,
 			);
 			name = A;
+			sourceTree = "<group>";
+		};
+		BCB226601BF32A4600D86963 /* B */ = {
+			isa = PBXGroup;
+			children = (
+				BCB226611BF32A5600D86963 /* BViewController.h */,
+				BCB226621BF32A5600D86963 /* BViewController.m */,
+			);
+			name = B;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +248,7 @@
 				BCB2265F1BF328C300D86963 /* AViewController.m in Sources */,
 				BCB2263F1BF320C000D86963 /* ViewController.m in Sources */,
 				BCB2263C1BF320C000D86963 /* AppDelegate.m in Sources */,
+				BCB226631BF32A5600D86963 /* BViewController.m in Sources */,
 				BCB226391BF320C000D86963 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
