@@ -1,23 +1,19 @@
 //
-//  AViewController.m
+//  BViewController.m
 //  Git
 //
 //  Created by qianfeng on 15/11/11.
 //  Copyright (c) 2015年 孙雯雯. All rights reserved.
 //
 
-#import "AViewController.h"
+#import "BViewController.h"
 
-@interface AViewController ()
+@interface BViewController ()
 
 @end
 
-@implementation AViewController
-<<<<<<< HEAD
+@implementation BViewController
 
-=======
-//A
->>>>>>> 268e47c10f614075043c172fb473bddc6c786dc0
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
